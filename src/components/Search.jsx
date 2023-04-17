@@ -13,7 +13,7 @@ export default function Search() {
   const inputRef = useRef();
 
   const foodSearch = async ()=>{
-    const res = await axios.get(`https://api.spoonacular.com/food/ingredients/autocomplete?apiKey=${import.meta.env.VITE_API_KEY}&query=${Query}&number=20&metaInformation=true`)
+    const res = await axios.get(`https://api.spoonacular.com/food/ingredients/autocomplete?apiKey=3a28fce6e82b4d33a2e830a118a51262&query=${Query}&number=20&metaInformation=true`)
     .then(res=>{
       setResults(res.data)
       if(res.data.length == 0){
