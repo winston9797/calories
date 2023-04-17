@@ -1,0 +1,20 @@
+.backButton a{
+	position: fixed;
+}
+.card{
+	margin-bottom: 50px !important;
+}
+.recipeSearch{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 50vh;
+	height: 30vh;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0.907);
+	border: 1px solid red;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
